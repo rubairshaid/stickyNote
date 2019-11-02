@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sticy Note</title>
+        <link href = "css/style.css" rel = "stylesheet" type = "text/css">
+        <script src = "js/index.js"></script>
+        <link rel = "stylesheet" href = "sass/style.css">
+    </head>
+    <body>
+      <header></header>
+
+      <div class ="boardIcon">
+        <button type = "button" onclick=  "createBoard()" class ="newBoard">New Board</button>
+        <button type = "button" class = "plusicon">+</button>
+      </div>
+      <div id = "boardList">
+        <button class= "tab" on click = "openB(event,'BoardA')">Board A</button>
+        <button class= "tab" on click = "openB(event,'BoardB')">Board B</button>
+      </div>
+      <div class="Bcontent" id ="BoardA">
+        <p>Board A</p>
+      </div>
+      <div class="Bcontent"  id="BoardB">
+        <p>Board B</p>
+      </div>
+    </body>
+</html>

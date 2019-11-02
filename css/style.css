@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
+header {
+  height: 7%;
+  background: #c6c7c9; }
+
+.boardIcon {
+  width: 10%;
+  height: 7%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+
+.newBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  border-radius: 20px;
+  color: white; }
+
+.plusicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10%;
+  background-color: red;
+  border-radius: 100%; }
+
+/*# sourceMappingURL=style.css.map */
