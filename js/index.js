@@ -29,3 +29,10 @@ function openB(ev , Bname){
     document.getElementById(Bname).style.display = "block";
     ev.currentTarget.className += " active";
 }
+
+let BoardArrayList = new Array ();
+
+
+function createBoard (){
+    let  b = new board ();
+}
